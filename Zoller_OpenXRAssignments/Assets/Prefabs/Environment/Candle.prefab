@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 369703529923089502}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.36, y: 1.549, z: -4.44296}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -53,7 +53,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 1
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -86,12 +86,12 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 0.2
+  m_BounceIntensity: 1
   m_ColorTemperature: 2091
-  m_UseColorTemperature: 1
+  m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
@@ -158,7 +158,7 @@ Transform:
   m_GameObject: {fileID: 1309738025372880180}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.000000059605, y: -0.3, z: 0}
+  m_LocalPosition: {x: 0, y: 0.0806, z: 0}
   m_LocalScale: {x: 0.054163516, y: 0.08427478, z: 0.054163516}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -272,7 +272,7 @@ Transform:
   m_GameObject: {fileID: 5963171849930884942}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.128893, w: 0.9916585}
-  m_LocalPosition: {x: -0.0007, y: -0.2101, z: 0}
+  m_LocalPosition: {x: -0.0005, y: 0.1693, z: -0.0021}
   m_LocalScale: {x: 0.008204148, y: 0.012765101, z: 0.008204148}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -385,7 +385,7 @@ Transform:
   m_GameObject: {fileID: 9111335679868184972}
   serializedVersion: 2
   m_LocalRotation: {x: -0.6960195, y: 0.050152477, z: -0.04884842, w: 0.71460164}
-  m_LocalPosition: {x: -0.00029999018, y: -0.2134, z: 0}
+  m_LocalPosition: {x: -0.0011, y: 0.1719, z: -0.0049}
   m_LocalScale: {x: 0.08828762, y: 0.2217457, z: 0.03556577}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -399,7 +399,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9111335679868184972}
   serializedVersion: 8
-  lengthInSec: 1
+  lengthInSec: 0.5
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -474,7 +474,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.2
+      scalar: 0.02
       minScalar: 5
       maxCurve:
         serializedVersion: 2
